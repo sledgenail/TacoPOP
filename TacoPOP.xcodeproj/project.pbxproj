@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A05C84571DE42365007C8859 /* MutableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05C84561DE42365007C8859 /* MutableCollection+Ext.swift */; };
+		A05C84591DE43E86007C8859 /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05C84581DE43E86007C8859 /* Shakeable.swift */; };
 		A0E84F591DE27D5200B75DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E84F581DE27D5200B75DB7 /* AppDelegate.swift */; };
 		A0E84F5E1DE27D5200B75DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E84F5C1DE27D5200B75DB7 /* Main.storyboard */; };
 		A0E84F601DE27D5200B75DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E84F5F1DE27D5200B75DB7 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A05C84561DE42365007C8859 /* MutableCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Ext.swift"; sourceTree = "<group>"; };
+		A05C84581DE43E86007C8859 /* Shakeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
 		A0E84F551DE27D5200B75DB7 /* TacoPOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoPOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E84F581DE27D5200B75DB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0E84F5D1DE27D5200B75DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -159,6 +163,7 @@
 				A0E84F801DE2809600B75DB7 /* DropShadow.swift */,
 				A0E84F8C1DE2978600B75DB7 /* ReusableView.swift */,
 				A0E84F8E1DE2985E00B75DB7 /* NibLoadableView.swift */,
+				A05C84581DE43E86007C8859 /* Shakeable.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				A0E84F901DE2994100B75DB7 /* UICollectionView+Ext.swift */,
+				A05C84561DE42365007C8859 /* MutableCollection+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -278,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E84F8A1DE28D7A00B75DB7 /* TacoCell.swift in Sources */,
+				A05C84571DE42365007C8859 /* MutableCollection+Ext.swift in Sources */,
 				A0E84F591DE27D5200B75DB7 /* AppDelegate.swift in Sources */,
 				A0E84F811DE2809600B75DB7 /* DropShadow.swift in Sources */,
 				A0E84F8F1DE2985E00B75DB7 /* NibLoadableView.swift in Sources */,
@@ -286,6 +293,7 @@
 				A0E84F7F1DE27E0800B75DB7 /* MainVC.swift in Sources */,
 				A0E84F871DE28A8900B75DB7 /* DataService.swift in Sources */,
 				A0E84F851DE284A500B75DB7 /* Taco.swift in Sources */,
+				A05C84591DE43E86007C8859 /* Shakeable.swift in Sources */,
 				A0E84F831DE281A800B75DB7 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +502,7 @@
 				A0E84F741DE27D5200B75DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0E84F751DE27D5200B75DB7 /* Build configuration list for PBXNativeTarget "TacoPOPTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +511,7 @@
 				A0E84F771DE27D5200B75DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
